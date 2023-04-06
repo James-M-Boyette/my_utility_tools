@@ -1,0 +1,37 @@
+/* File Location: 
+    - C:\Users\<USER_NAME>\AppData\Roaming\Code\User
+        Ex: C:\Users\jboyette\AppData\Roaming\Code\User
+    - %APPDATA%\Roaming\Code\User\keybindings.json
+ */
+
+ // Place your key bindings in this file to override the defaults
+[
+    // Insert console.log('')
+    {
+        "key": "ctrl+shift+l",
+        "command": "editor.action.insertSnippet",
+        "args": {
+          "snippet": "console.log('${1:}');$0"
+        },
+        "when": "editorTextFocus"
+      },
+      // Insert multi-line comment
+      {
+        "key": "ctrl+shift+'",
+        "command": "editor.action.insertSnippet",
+        "args": {
+          "snippet": "/* ${0}\n   \n */"
+        },
+        // "when": "editorTextFocus && !editorReadonly",
+        "when": "editorTextFocus"
+      },   
+      // Insert a comment divider
+      {
+        "key": "ctrl+shift+k",
+        "command": "editor.action.insertSnippet",
+        "args": {
+          "snippet": "/* ------------------------------- ${1} -------------------------------*/ ${0}"
+        },
+        "when": "editorTextFocus"
+    }   
+]
