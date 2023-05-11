@@ -65,7 +65,7 @@
         },
         {
           "tag": "*",
-          "color": "#98C379",
+          "color": "#42f831",
           "strikethrough": false,
           "underline": false,
           "backgroundColor": "transparent",
@@ -83,7 +83,7 @@
         },
         {
           "tag": "note:",
-          "color": "#00FFBF",
+          "color": "#cffe00",
           "strikethrough": false,
           "underline": false,
           "backgroundColor": "transparent",
@@ -99,5 +99,19 @@
           "bold": false,
           "italic": false
         }
+      ]
+}
+
+
+// .color {
+//   color: #98C379; /* Original */
+//   color: #5fc517; /* Note #1 */
+//   color: #a5c517; /* Note #2 */
+//   color: #cffe00; /* Note #3 */
+//   color: #6ac100; /* Note #4 */
+//   color: #42f831; /* * */
+//   color: #c1f79a;
+//   color: #00FFBF;
+// }
       ]
 }
