@@ -98,6 +98,15 @@
           "backgroundColor": "transparent",
           "bold": false,
           "italic": false
+        },
+        {
+          "tag": "bug:",
+          "color": "#b235ff",
+          "strikethrough": false,
+          "underline": false,
+          "backgroundColor": "transparent",
+          "bold": false,
+          "italic": false
         }
       ]
 }
@@ -112,6 +121,6 @@
 //   color: #42f831; /* * */
 //   color: #c1f79a;
 //   color: #00FFBF;
+//   color: #b235ff; /* Bug #1 */
+//   color: #fb004f; /* Bug #2 */
 // }
-      ]
-}
